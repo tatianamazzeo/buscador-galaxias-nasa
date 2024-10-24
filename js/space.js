@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           //Acceder a los datos
           const title = elemento.data[0]?.title || "No title available"; //Accedemos al titulo
-          const image = elemento.links?.[0].href || "/img/no-image.avif"; //Accedemos a la imagen
+          const image = elemento.links?.[0].href || "img/no-image.avif"; //Accedemos a la imagen
           const description =
             elemento.data[0]?.description || "No description available"; //Accedemos a la descripcion
           const date = elemento.data[0]?.date_created || "No date available";
